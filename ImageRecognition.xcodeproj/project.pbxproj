@@ -16,6 +16,9 @@
 		53F3463427EF80E800A3FDCF /* ImageRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F3463327EF80E800A3FDCF /* ImageRecognitionTests.swift */; };
 		53F3463E27EF80E800A3FDCF /* ImageRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F3463D27EF80E800A3FDCF /* ImageRecognitionUITests.swift */; };
 		53F3464027EF80E800A3FDCF /* ImageRecognitionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F3463F27EF80E800A3FDCF /* ImageRecognitionUITestsLaunchTests.swift */; };
+		53F3464E27EF822F00A3FDCF /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 53F3464C27EF822E00A3FDCF /* SqueezeNet.mlmodel */; };
+		53F3464F27EF822F00A3FDCF /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 53F3464D27EF822F00A3FDCF /* MobileNetV2.mlmodel */; };
+		53F3465127EF82CE00A3FDCF /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F3465027EF82CE00A3FDCF /* car.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		53F3463927EF80E800A3FDCF /* ImageRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F3463D27EF80E800A3FDCF /* ImageRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRecognitionUITests.swift; sourceTree = "<group>"; };
 		53F3463F27EF80E800A3FDCF /* ImageRecognitionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRecognitionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		53F3464C27EF822E00A3FDCF /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		53F3464D27EF822F00A3FDCF /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		53F3465027EF82CE00A3FDCF /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 		53F3461B27EF80E700A3FDCF /* ImageRecognition */ = {
 			isa = PBXGroup;
 			children = (
+				53F3465027EF82CE00A3FDCF /* car.png */,
+				53F3464D27EF822F00A3FDCF /* MobileNetV2.mlmodel */,
+				53F3464C27EF822E00A3FDCF /* SqueezeNet.mlmodel */,
 				53F3461C27EF80E700A3FDCF /* AppDelegate.swift */,
 				53F3461E27EF80E700A3FDCF /* SceneDelegate.swift */,
 				53F3462027EF80E700A3FDCF /* ViewController.swift */,
@@ -231,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53F3465127EF82CE00A3FDCF /* car.png in Resources */,
 				53F3462927EF80E800A3FDCF /* LaunchScreen.storyboard in Resources */,
 				53F3462627EF80E800A3FDCF /* Assets.xcassets in Resources */,
 				53F3462427EF80E700A3FDCF /* Main.storyboard in Resources */,
@@ -261,6 +271,8 @@
 				53F3462127EF80E700A3FDCF /* ViewController.swift in Sources */,
 				53F3461D27EF80E700A3FDCF /* AppDelegate.swift in Sources */,
 				53F3461F27EF80E700A3FDCF /* SceneDelegate.swift in Sources */,
+				53F3464F27EF822F00A3FDCF /* MobileNetV2.mlmodel in Sources */,
+				53F3464E27EF822F00A3FDCF /* SqueezeNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
